@@ -335,10 +335,7 @@ function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-icon">✦</div>
-          <span>
-            Post<span className="brand-ai">AI</span>
-          </span>
+          <img className="brand-logo" src="/brand/postai-logo.svg" alt="PostAI" width="194" height="56" />
         </div>
 
         <div className="menu-label">MENU PRINCIPAL</div>
@@ -415,6 +412,7 @@ function App() {
           <div className="page-content">
             <section className="welcome">
               <div>
+                <img className="welcome-logo" src="/brand/postai-logo.svg" alt="PostAI" width="242" height="70" />
                 <span className="eyebrow">
                   SEU ESTÚDIO DE CRIAÇÃO
                 </span>
@@ -424,11 +422,11 @@ function App() {
                 </h1>
 
                 <p>
-                  Suas ideias merecem virar conteúdos que conectam.
+                  Ideias boas merecem ser compartilhadas.
                 </p>
               </div>
 
-              <div className="welcome-decoration">✦</div>
+              <img className="welcome-decoration" src="/brand/postai-symbol.svg" alt="" aria-hidden="true" width="100" height="108" />
             </section>
 
             <section className="creation-card">
